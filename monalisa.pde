@@ -4,7 +4,7 @@ PImage photo;
 
 void setup(){
   size(800,650);
-  photo = loadImage("/Users/sangjinlee/Desktop/monalisa.jpg");
+  photo = loadImage("./monalisa.jpg");
   //Using the width and height of the photo for the screen size
   photo.resize(width,height); 
 }
